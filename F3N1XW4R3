@@ -1,3 +1,10 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "$ F3N1X#1032";
+Title = "DM FOR ANY BUGS OR GET PREMIUM VERSION";
+Duration = 10;
+});
 local SilentAim = true
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Players = game:GetService("Players")
